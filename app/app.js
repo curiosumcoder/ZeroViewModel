@@ -30,6 +30,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 {
                     console.log('No filter data!');
                 }
+            },
+            showModel : _ =>{
+                console.log(searchVM.model);
             }
         }
     });

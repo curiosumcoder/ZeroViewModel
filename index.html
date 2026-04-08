@@ -23,6 +23,9 @@
                     <input type="text" name="filter" placeholder="Type search here ..." class="form-control" />
                     <button type="submit" click="search" class="btn btn-light">Search</button>
                 </form>
+                <hr>
+                <input type="text" name="quantity" placeholder="Number of elements" class="form-control" />
+                <button type="button" click="showModel" class="btn btn-light">Show Model</button>
             </template>
         </div>
 
@@ -41,6 +44,7 @@
     <ul>
         <li>npm install json-server -g</li>
         <li>json-server .\app\data.json --static . --watch</li>
+        <li>pnpx json-server@0.17.4 .\app\data.json --static . --watch</li>
     </ul>
 
 </body>
